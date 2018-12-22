@@ -5,22 +5,27 @@
 \usepackage[margin=1in]{geometry}
 
 \titleformat{\section}
-{\huge\bfseries\lowercase}
+{\huge}
 {}
 {0em}
-{}[\titlerule]
+{\bfseries\lowercase}[\titlerule]
 
 \titleformat{\subsection}
 {\bfseries\large}
 {}
 {0em}
-{}
+{\filcenter}
 
 \titleformat{\subsubsection}[runin]
 {\bfseries}
 {}
 {0em}
 {}
+
+\titlespacing{\subsubsection}
+{0em}
+{.25em}
+{1em}
 
 \renewcommand{\maketitle}{
 \begin{center}
