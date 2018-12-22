@@ -9,3 +9,5 @@ A shallow dive into building documents with LaTeX
 * How to write a basic LaTeX document
 * The simple syntax to begin writing a document such as '\begin{enumerate}' and '\begin{itemize}'
 * How to use ref's and labels to create a dynamic referencing system within a document
+* Using the renew command to redefine a section and add your own styles
+* the use of key packages such as titlesec and geometry to alter the structure of the page
