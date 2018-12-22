@@ -1,7 +1,27 @@
 \documentclass{article}
 
+\usepackage{titlesec}
+
+\titleformat{\section}
+{\huge\bfseries\lowercase}
+{}
+{0em}
+{}[\titlerule]
+
+\titleformat{\subsection}
+{\bfseries\large}
+{}
+{0em}
+{}
+
+\titleformat{\subsubsection}[runin]
+{\bfseries}
+{}
+{0em}
+{}
+
 \author{Brian Toye}
-\title{Curriculum Vitae}
+\title{Software Developer}
 
 \begin{document}
 
@@ -11,20 +31,37 @@
 
 This is some text written in {\LaTeX}
 
-\section{Experience}
+\section{Technologies}
 
-This is how you create a new paragraph - make two carriage returns
+\subsubsection{Programming}
+C\# 7.0, Python 3
 
-\subsection{First job}
+\subsubsection{Markup}
+{\LaTeX}, HTML, CSS
+
+\section{Experience\label{jobs}}
+
+Here in section \ref{jobs} I will talk about some of my relevant experiences
+
+\subsection{First Job}
 
 \textbf {This is bold text}
 
 \textit {This is italic text}
-\subsection{Second job}
+\subsection{Second Job}
 
 \emph{This is emphatic text}
 
 \underline{This is underlined text}
 
+\section{Communication Skills}
+
+\section{Education}
+
+\begin{itemize}
+\item Apprenticeship
+\item A Levels
+\item GCSE's
+\end{itemize}
 
 \end{document}
