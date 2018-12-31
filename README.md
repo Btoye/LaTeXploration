@@ -15,3 +15,4 @@ A shallow dive into building documents with LaTeX
 ## Goals
 * To create a CV/resume ready template that allows me to explore some LaTeX libraries
 * Become capable of creating my own .tex docs without the need for a tutorial
+* To also update my CV while learning something
